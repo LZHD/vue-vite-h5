@@ -4,9 +4,9 @@ declare module '*.vue' {
   export default component;
 }
 
-declare module '@vue/runtime-core' {
-  import dayjs from "dayjs";
-  export interface ComponentCustomProperties {
-    $dayjs: dayjs.Dayjs
-  }
-}
+// declare module '@vue/runtime-core' {
+//   import dayjs from "dayjs";
+//   export interface ComponentCustomProperties {
+//     $dayjs: dayjs.Dayjs
+//   }
+// }
