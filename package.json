@@ -4,6 +4,14 @@
   "license": "MIT",
   "author": "LZHD",
   "description": "Developing with Vue 3 and Typescript in Vite.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LZHD/vue-vite-h5"
+  },
+  "bugs": {
+    "url": "https://github.com/LZHD/vue-vite-h5/issues"
+  },
+  "homepage": "https://github.com/LZHD/vue-vite-h5#readme",
   "scripts": {
     "dev": "vite",
     "start": "npm run dev",
@@ -22,6 +30,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
+    "@types/node": "^15.12.5",
     "@typescript-eslint/eslint-plugin": "^4.28.0",
     "@typescript-eslint/parser": "^4.28.0",
     "@vitejs/plugin-vue": "^1.2.3",
