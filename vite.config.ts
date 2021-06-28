@@ -3,6 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import styleImport from 'vite-plugin-style-import';
 
 // https://vitejs.dev/config/
+// https://github.com/vitejs/vite/issues/1930 .env
 export default defineConfig({
   plugins: [
     vue(),
