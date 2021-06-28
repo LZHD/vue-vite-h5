@@ -1,6 +1,29 @@
-# Vue 3 + Typescript + Vite
+# vue-vite-h5
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn start
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://vitejs.dev/config/).
 
 ## Recommended IDE Setup
 
