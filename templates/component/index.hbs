@@ -1,0 +1,24 @@
+{{#if template}}
+<template>
+  <h1>{{ name }}</h1>
+</template>
+{{/if}}
+
+{{#if script}}
+<script lang="ts">
+import { defineComponent } from 'vue';
+export default defineComponent({
+  name: '{{ properCase name }}',
+  props: {},
+  setup: () => {
+    console.log('{{ properCase name }}');
+  }
+});
+</script>
+{{/if}}
+
+{{#if style}}
+<style scoped lang="scss">
+
+</style>
+{{/if}}

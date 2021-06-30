@@ -17,7 +17,8 @@
     "start": "npm run dev",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview",
-    "lint": "eslint --ext .js,.jsx,.vue,.ts,.tsx src"
+    "lint": "eslint --ext .js,.jsx,.vue,.ts,.tsx src",
+    "generate": "plop"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -45,6 +46,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-vue": "^7.12.1",
     "lint-staged": "^11.0.0",
+    "plop": "^2.7.4",
     "postcss": "^8.3.5",
     "postcss-pxtorem": "^6.0.0",
     "prettier": "^2.3.2",
