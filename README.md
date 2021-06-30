@@ -22,6 +22,11 @@ yarn build
 yarn lint
 ```
 
+### Generate component(page) templates for development
+```
+yarn generate
+```
+
 ### Customize configuration
 See [Configuration Reference](https://vitejs.dev/config/).
 
