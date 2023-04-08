@@ -3,5 +3,7 @@ module.exports = {
   jsxBracketSameLine: true,
   singleQuote: true,
   arrowParens: 'avoid',
-  trailingComma: 'none'
+  trailingComma: 'none',
+  // 避免截断标签
+  htmlWhitespaceSensitivity: 'ignore'
 };

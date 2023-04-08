@@ -14,10 +14,15 @@
     or
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
     (if using
-    <code>&lt;script setup&gt;</code>)
+    <code>&lt;script setup&gt;</code>
+    )
   </p>
 
-  <p>See <code>README.md</code> for more information.</p>
+  <p>
+    See
+    <code>README.md</code>
+    for more information.
+  </p>
 
   <p>
     <a href="https://vitejs.dev/guide/features.html" target="_blank">
@@ -30,13 +35,12 @@
   <button type="button" @click="count++">count is: {{ count }}</button>
   <p>
     Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
+    <code>components/HelloWorld.vue</code>
+    to test hot module replacement.
   </p>
-  <van-button type="primary">primary</van-button>
-  <van-button type="success">success</van-button>
-  <van-button type="default">default</van-button>
-  <van-button type="warning">warning</van-button>
-  <van-button type="danger">danger</van-button>
+  <van-button type="primary" round @click="count++">
+    count is: {{ count }}
+  </van-button>
 </template>
 
 <script lang="ts">
