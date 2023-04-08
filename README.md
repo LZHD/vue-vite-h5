@@ -4,27 +4,27 @@ This template should help get you started developing mobile applications with Vu
 
 ## Project setup
 ```
-yarn install
+pnpm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn start
+pnpm start
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+pnpm build
 ```
 
 ### Lints and fixes files (eslint + prettier)
 ```
-yarn lint
+pnpm lint
 ```
 
 ### Generate component(page) templates for development
 ```
-yarn generate
+pnpm generate
 ```
 
 ### Customize configuration
